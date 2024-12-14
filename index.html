@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaishnavi Hirulkar Portfolio</title>
+    <link rel="stylesheet" href="C:\Users\vaish\OneDrive\Desktop\portfilo\protfilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="navmenu">
+            <div class="navleft">
+                <a href="#" id="a1">LF</a>
+                <a href="./Work.html" target="_self">WORK</a>
+                <a href="./About.html">ABOUT</a>
+                <a href="#">THOUGHTS</a>
+                <a href="#">ARCHIVE</a>
+            </div>
+
+            <div class="navright">
+                <a href="#" id="changeColorLink"><i class="fa-solid fa-eye"></i>Mode</a>
+            </div>
+        </div>
+
+        <div class="intro" id="myContainer">
+            <img src="./Imgportfilo/myimg-modified.png">
+            <h2>VAISHNAVI HIRULKAR</h2>
+            <h3>WEB DESIGNER</h3>
+        </div>
+    </div>
+
+    <script>
+        // Get the anchor tag element by its ID
+        const changeColorLink = document.getElementById("changeColorLink");
+        const container = document.getElementById("myContainer");
+
+        // Add event listener for click event
+        changeColorLink.addEventListener("click", function(event) {
+            // Prevent default action (which would navigate away)
+            event.preventDefault();
+
+            // Toggle background color and text color between black and white
+            if (container.style.backgroundColor === "black") {
+                container.style.backgroundColor = "white";
+                container.style.color = "black"; 
+                 // Reset text color to black
+            } else {
+                container.style.backgroundColor = "black";
+                container.style.color = "white";  // Change text color to white
+            }
+        });
+    </script>
+</body>
+</html>
+
+</html>
+
+
