@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+}
+.container
+{
+    width:100%;
+    min-height: 100px;
+   /* border: 1px solid red;*/
+    background-color: #0C0C0C;
+}
+.container .navmenu
+{
+    width:100%;
+    height:60px;
+    border: 1px solid lightgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.navmenu .navleft
+{
+    float: left;
+    width: 40%;
+    height:60px;
+   /* border: 1px solid red;*/
+}
+.navmenu .navright
+{
+    float: right;
+    width: 5%;
+    height: 60px;
+   /* border: 1px solid red;*/
+    margin-right:10px;
+}
+.navleft a
+{
+    margin-right:10px;
+    line-height:60px;
+    text-decoration: none;
+    color: white;
+    font-weight:500;
+    font-size: 15px;
+    padding: 10px;
+}
+.navleft #a1
+{
+    background-color: white;
+    color: black;
+}
+.navright a
+{
+    color: white;
+    line-height: 60px;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.navright i
+{
+    margin-right: 5px;
+}
+.container .intro
+{
+    width:100%;
+    min-height:539px;
+    background-color: #0C0C0C;
+    color:white;
+}
+.intro {
+    transition: background-color 0.3s white;
+}
+.intro h2
+{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+    line-height:100px;
+}
+.intro h3
+{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    line-height:100px;
+    padding-bottom: 25px;
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.intro img
+{
+    width:200px;
+    height:200px;
+    border-radius: 200px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+
+ .intro img:hover
+ {
+    border: 2px solid white;
+    opacity: 0.6;
+ }
